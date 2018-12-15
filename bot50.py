@@ -49,37 +49,76 @@ async def on_message(message):
     if ('moe') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+         if ('Moe') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('sugi') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+         if ('Sugi') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('sugio') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+        if ('Sugio') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('suge') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+        if ('Suge') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('sugeo') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+        if ('Sugeo') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+         if ('Sugeo') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('suge-o') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+        if ('Suge-o') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('pula') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+        if ('Pula') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('fut') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+         if ('Fut') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('pwla') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+        if ('Pwla') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('morti mati') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+         if ('Morti mati') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('morti ma-ti') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+          if ('Morti ma-ti') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('te fut') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+        if ('Te fut') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('Coe') in message.content:
@@ -88,13 +127,19 @@ async def on_message(message):
     if ('fgm') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+         if ('Fgm') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('fmm') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
-    if ('plm') in message.content:
+         if ('Fmm') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('plm') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+        if ('Plm') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('dick') in message.content:
@@ -104,7 +149,7 @@ async def on_message(message):
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if message.content.startswith('Developer'):
-        randomlist = ["Gopas","seBaKa","N0TiCe",]
+        randomlist = ["Gopas","Gopas","Gopas","Gopas","seBaKa","seBaKa","seBaKa","N0TiCe","RvonGUSTERU",]
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content.startswith('coinflip'):
         randomlist = ["Pajura","Cap",]
