@@ -18,7 +18,7 @@ async def on_member_join(member):
     await client.send_message(member, 'Salut , bine ai venit pe serverul nostru de Discord , bafta !')
     print('Sent message to ' + member.name)
 async def on_ready():
-    await client.change_presence(game=Game(name='      '))
+    await client.change_presence(game=Game(name='cu prosti'))
     print('Ready, Freddy') 
 
 
@@ -37,7 +37,13 @@ async def on_message(message):
     if ('muie') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
+        if ('Muie') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
     if ('mue') in message.content:
+        await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
+        await client.delete_message(message)
+          if ('Mue') in message.content:
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if ('moe') in message.content:
