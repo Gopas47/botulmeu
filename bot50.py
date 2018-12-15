@@ -14,13 +14,18 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_member_join(member):
-    await client.change_presence(game=Game(name=' cu prosti'))
+    await client.change_presence(game=discord.Game(name='cu prosti'))
     await client.send_message(member, 'Salut , bine ai venit pe serverul nostru de Discord , bafta !')
     print('Sent message to ' + member.name)
 async def on_ready():
-    await client.change_presence(game=Game(name='cu prosti'))
-    print('Ready, Freddy') 
-
+    await client.change_presence(game=discord.Game(name='cu prosti'))
+    print('Gata botul') 
+    
+    
+@client.event
+async def on_member_join(member):
+    role - discord.utils.get(member.server.roles, name-'Friends')
+    awai client.add_roles(member, role)
 
 @client.event
 async def on_message(message):
