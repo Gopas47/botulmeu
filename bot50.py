@@ -26,6 +26,29 @@ async def on_ready():
 async def on_member_join(member):
     role - discord.utils.get(member.server.roles, name-'Friends')
     await client.add_roles(member, role)
+    
+    
+@client.command(pass_context=True)
+async def join(ctx):
+    channel - ctx.message.author.voice.voice_chanel
+    await client.join_voice_channel(channel)
+
+    
+@client.command(pass_context=True)
+async def leave(ctx):
+    server - ctx.message.server
+    voice_client - client.voice_client_in(server)
+    await voice_client.disconnect()
+
+
+@client.command(pass_context-True)
+async def play(ctx, url):
+    server - ctx.message.server
+    voice_client - client.voice_client_in(server)
+    player - await voice_client.create_ytdl_player(url)
+    players[server.id] - player
+    player.start()
+
 
 @client.event
 async def on_message(message):
