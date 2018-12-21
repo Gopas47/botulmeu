@@ -12,6 +12,12 @@ client = commands.Bot(command_prefix = '!')
 Clientdiscord = discord.Client()
 
 
+async def change_status(self):
+    await self.bot.change_presence(game=discord.Game(name="seBaKa", type=0))          
+          
+
+    print('Gata botul') 
+    
 @Client.command(pass_context = True)
 async def clear(ctx, number):
     mgs = [] #Empty list to put all the messages in the log
@@ -25,13 +31,6 @@ async def clear(ctx, number):
 async def on_member_join(member):
     await client.send_message(member, 'Salut , bine ai venit pe serverul nostru de Discord , bafta !')
     print('Sent message to ' + member.name
-
-
-async def change_status(self):
-    await self.bot.change_presence(game=discord.Game(name="seBaKa", type=0))          
-          
-
-    print('Gata botul') 
     
     
 @client.event
