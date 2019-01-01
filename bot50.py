@@ -11,7 +11,7 @@ Client = discord.client
 client = commands.Bot(command_prefix = '!')
 Clientdiscord = discord.Client()
 async def change_status(self):
-    await self.bot.change_presence(game=discord.Game(name="seBaKa", type=0))
+    await self.bot.change_presence(game=discord.Game(name="seBaKa"))
     print('Ready, Freddy') 
 
 
