@@ -91,10 +91,10 @@ async def on_message(message):
         await client.send_message(message.channel,' Degeaba injuri ca iti sterg mesajele, <@%s>'  %(message.author.id))
         await client.delete_message(message)
     if message.content.startswith('Developer'):
-        randomlist = ["Gopas","seBaKa","N0TiCe",]
+        randomlist = ["Gopas","seBaKa",]
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content.startswith('coinflip'):
-        randomlist = ["Pajura","Cap",]
+        randomlist = ["Pajura","Pajura","Cap","Cap",]
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == '!ajutor':
         await client.send_message(message.channel,'```Salut , eu sunt un bot .Comenzile mele sunt :re , pa , sal , bye , Cine te-a facut? , coinflip , Developer, dar eu sterg si mesajele care au in componenta lor injuraturi. (WORKING ON)       Bafta !```')
