@@ -5,6 +5,13 @@ import asyncio
 import time
 import random
 from discord import Game
+from discord.utils import find
+
+@client.event
+async def on_guild_join(guild):
+    general = find(lambda x: x.name == 'welcome',  guild.text_channels)
+    if general and general.permissions_for(guild.me).send_messages:
+        await general.send('Salut,{}!'.format(guild.name))
 
 Client = discord.client
 client = commands.Bot(command_prefix = '!')
