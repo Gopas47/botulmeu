@@ -7,6 +7,9 @@ import random
 from discord import Game
 from discord.utils import find
 
+#  link proiect arme nucleare : https://drive.google.com/file/d/1PZXqaQd4k7aNeHhS5W1rBvL5hGlq9pHt/view
+
+
 @client.event
 async def on_guild_join(guild):
     general = find(lambda x: x.name == 'welcome',  guild.text_channels)
