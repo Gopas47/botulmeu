@@ -107,4 +107,4 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == '!ajutor':
         await client.send_message(message.channel,'```Salut , eu sunt un bot .Comenzile mele sunt :re , pa , sal , bye , Cine te-a facut? , coinflip , Developer, dar eu sterg si mesajele care au in componenta lor injuraturi. (WORKING ON)       Bafta !```')
-client.run('NTIyNDQ2MzY0NjI2NjQ5MTA4.D1XOFQ.L_XZsxa64BuMf5TjKYCVD69YNaQ')
+
